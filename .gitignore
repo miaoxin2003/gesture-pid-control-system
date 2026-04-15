@@ -1,0 +1,28 @@
+# STM32 Build Outputs
+*.hex
+*.axf
+*.map
+*.o
+*.d
+*.crf
+*.lnp
+*.sct
+*.dep
+*.htm
+*.build_log.htm
+
+# Python
+__pycache__/
+*.pyc
+*.pkl
+*.pyo
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+*.uvopt
+*.uvproj
+*.bak
