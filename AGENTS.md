@@ -19,7 +19,7 @@ Dual-mode gesture recognition system: **Python** (MediaPipe + SVM) runs on PC, s
   - `train_model.py` - SVM training script
   - `collect_data.py` - Data collection for training
   - `dataset.csv` - Training dataset
-  - `HandTrackingModule.py` - 手部检测+**自适应EMA滤波**（速度自适应alpha + 离群点检测）+ **预测控制**（线性速度外推）
+  - `HandTrackingModule.py` - 手部检测+**自适应EMA滤波**（速度自适应alpha + 离群点检测）+ **预测控制**（线性速度外推）+ **手势状态机**（保持确认防误触）
 
 ## Build & Run
 
